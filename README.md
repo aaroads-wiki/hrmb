@@ -10,8 +10,10 @@ This script was written in Ubuntu Linux. It could probably be modified to work o
 ####Dependency’s
 For the program to work, you must install the following packages:
 <pre>
-sudo apt-get install perl, libmediawiki-api-perl, inkscape
+sudo apt-get install perl, inkscape
 </pre>
+
+This will not work with Inkscape 1.2, since verbs are removed entirely.
 
 #####Scour
 It is recommend to also have Scour Command Line Script on you computer, you can download it at http://www.codedread.com/scour/.
