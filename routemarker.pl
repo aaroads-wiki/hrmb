@@ -107,7 +107,7 @@ foreach (@sequence) {
 	
 	# You cannot use Inkscape verbs in the shell mode or without the GUI, so for now Inkscape will open and close as it does it's work
 	print "Converting text-to-path...";
-        system("inkscape", "$outfilename", "--select=$textID", "--verb=ObjectToPath", "--verb=FileSave", "--verb=FileClose", "--verb=FileQuit");
+        system("inkscape", "$outfilename", "--select=$textID", "--verb=ObjectToPath;FileSave;FileClose;FileQuit", "--with-gui");
 
         # Clean SVG with Scour
 	if ($scourpath) {
