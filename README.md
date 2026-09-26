@@ -13,7 +13,7 @@ For the program to work, you must install the following packages:
 sudo apt-get install perl, inkscape, python3, build-essential
 </pre>
 
-This will not work with Inkscape 1.2, since verbs are removed entirely.
+This will only work with Inkscape 1.2, if you have an older version, you can check in the history for the old script.
 
 ##### Scour
 It is recommend to also have Scour Command Line Script on you computer, you can download it at http://www.codedread.com/scour/.
